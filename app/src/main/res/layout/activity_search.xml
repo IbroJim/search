@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/my_linear"
+        android:background="@drawable/linear_backgroun"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100">
+        <EditText
+            android:backgroundTint="@color/colorWhite"
+            android:hint="@string/search"
+            android:id="@+id/search_edit"
+            android:drawableLeft="@drawable/ic_search"
+            android:layout_weight="90"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/seting"
+            android:layout_weight="10"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_setting"/>
+
+    </LinearLayout>
+    <FrameLayout
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
+    </FrameLayout>
+
+
+</LinearLayout>
