@@ -7,6 +7,9 @@
     <string name="activity_two">Activity Two</string>
     <string name="search">Поиск</string>
     <string name="output">output</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="give">передать</string>
     <string-array name="search">
         <item>По имени</item>
         <item>По фамилии</item>
